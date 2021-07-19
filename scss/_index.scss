@@ -28,6 +28,16 @@ img {
   color: #ffdf65;
 }
 
+.progress-title {
+  font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+  .progress-title {
+    font-size: 1.25rem;
+  }
+}
+
 //utilities
 .font-BalooTamma2 {
   font-family: "Baloo Tamma 2", cursive;
