@@ -1,0 +1,62 @@
+/* font-family */
+/* font-family: "Baloo Tamma 2", cursive; */
+/* font-family: "Noto Sans", sans-serif; */
+
+/* color */
+/* yellow: #FFDF65; */
+/* red: #FF785E  */
+// gray-100: #f8f9fa
+// gray-200: #e8e8db
+/* gray(gray-600)/secondary: #858377 */
+// gray-dark(gray-dark): #636057
+/* dark: #494846; */
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 3px solid #ffdf65;
+}
+
+.dark-badge > span {
+  color: #ffdf65;
+}
+
+//utilities
+.font-BalooTamma2 {
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+.ls-xs {
+  letter-spacing: 0.61px;
+}
+
+.ls-s {
+  letter-spacing: 0.7px;
+}
+
+.ls-1 {
+  letter-spacing: 1px;
+}
+
+.ls-2 {
+  letter-spacing: 2px;
+}
+
+.ls-3 {
+  letter-spacing: 3px;
+}
+
+.text-gray-dark {
+  color: #636057;
+}
+
+.border-radius-xl {
+  border-radius: 1.75rem;
+}
