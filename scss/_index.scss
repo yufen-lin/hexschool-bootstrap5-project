@@ -29,12 +29,14 @@ img {
 }
 
 .progress-title {
-  font-size: 1rem;
+  font-size: 14px;
+  letter-spacing: 0;
 }
 
 @media (min-width: 576px) {
   .progress-title {
     font-size: 1.25rem;
+    letter-spacing: 0.7px;
   }
 }
 
